@@ -1,8 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MainWrapper from './components/MainWrapper/MainWrapper.js';
 
-function App() {
+/**
+ * function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,5 +23,18 @@ function App() {
     </div>
   );
 }
+ */
+
+class App extends React.Component {
+    render() {
+
+      return (
+        <div>
+          <MainWrapper/>
+        </div>
+      )
+    };
+  }
+
 
 export default App;
